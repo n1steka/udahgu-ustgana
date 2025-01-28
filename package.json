@@ -1,0 +1,24 @@
+{
+  "name": "docker-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "prisma:studio": "prisma studio",
+    "prisma:migrate": "prisma migrate dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.10.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "prisma": "^5.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

@@ -16,8 +16,6 @@ RUN npx prisma generate
 # Байгаа бол .env файл үүсгэх
 COPY .env.example .env
 
-# Build хийх (хэрэв Next.js эсвэл React app бол)
-RUN npm run build
 
 # Port тохируулга
 EXPOSE 3000

@@ -13,9 +13,6 @@ COPY . .
 # Prisma тохируулга
 RUN npx prisma generate
 
-# Байгаа бол .env файл үүсгэх
-COPY .env.example .env
-
 
 # Port тохируулга
 EXPOSE 3000

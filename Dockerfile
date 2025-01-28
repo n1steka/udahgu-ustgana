@@ -5,10 +5,9 @@ WORKDIR /app
 
 # Package файлуудыг хуулах
 COPY package*.json ./
-RUN npm install
+RUN pnpm install
 
 # Бүх файлуудыг хуулах
-COPY . .
 
 # Prisma тохируулга
 RUN npx prisma generate
